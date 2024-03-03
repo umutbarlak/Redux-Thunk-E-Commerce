@@ -1,4 +1,4 @@
-import axios, { Axios } from "axios";
+import axios from "axios";
 
 export const addToBasket = (product) => async (dispatch) => {
   const newProduct = { ...product, amount: 1 };
